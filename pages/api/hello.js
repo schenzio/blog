@@ -3,6 +3,7 @@
 //access at at http://localhost:3000/api/hello to see json data
 export default function handler(req, res) {
   res.status(200).json({ name: 'John Doe' })
+  console.log('J.D.')
 }
 //req is an instance of http.IncomingMessage, plus some pre-built middlewares.
 //res is an instance of http.ServerResponse, plus some helper functions.
