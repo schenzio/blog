@@ -33,7 +33,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
-## Successfully deployed to the following URLs:
+# Successfully deployed to the following URLs:
 - [nextjs-blog-schenzio.vercel.app](https://nextjs-blog-schenzio.vercel.app/)
 - [nextjs-blog-git-main-schenzio.vercel.app](https://nextjs-blog-git-main-schenzio.vercel.app/)
