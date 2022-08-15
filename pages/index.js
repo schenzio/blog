@@ -23,7 +23,7 @@ export default function Home( {allPostsData} ) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, I&apos;m your <b>friendly neighrborhood full stack developer</b></p>
+        <p>Hi, I&apos;m your <b><i>friendly neighrborhood full stack developer</i></b></p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '} {/* adds an empty space, which is used to divide text over multiple lines*/}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
