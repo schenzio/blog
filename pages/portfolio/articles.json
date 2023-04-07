@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Dall&apos;Unione europea 367 milioni per il Sulcis ma la Regione dorme. Da due anni",
+    "url": "https://indip.it/dallunione-europea-367-milioni-per-il-sulcis-ma-la-regione-dorme-da-due-anni/",
+    "magazine": "Indip",
+    "img": "indip1.jpg"
+  },   
+  {
+    "id": 2,
+    "title": "The impact of cross-border data journalism with Jacopo Ottaviani",
+    "url": "https://jamlab.africa/the-impact-of-cross-border-data-journalism-with-jacopo-ottaviani/",
+    "magazine": "Jamlab",
+    "img": "jamlab1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Verso una salute universale. Conquiste e mancanze del Sistema Sanitario Nazionale",
+    "url": "https://www.changethefuture.it/diritti/diritto-salute-esclusi-ssn/",
+    "magazine": "Change the Future",
+    "img": "ctf1.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Essere uno straniero senza documenti ai tempi del Covid",
+    "url": "https://www.changethefuture.it/diritti/covid-cittadini-stranieri-migranti/",
+    "magazine": "Change the Future",
+    "img": "ctf2.jpg"
+  },
+  {
+    "id": 5,
+    "title": "L'anno di campagna vaccinale degli invisibili",
+    "url": "https://www.changethefuture.it/diritti/campagna-vaccinale/",
+    "magazine": "Change the Future",
+    "img": "ctf3.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Podcast, community e giovani: intervista a Francesco Costa, vicedirettore de Il Post",
+    "url": "https://www.changethefuture.it/informazione/intervista-francesco-costa/",
+    "magazine": "Change the Future",
+    "img": "ctf4.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Following Camelia's life: la memoria di Camelia Matatia come percorso di alternanza scuola-lavoro",
+    "url": "https://e-review.it/scannavini-following-camelia-s-life",
+    "magazine": "E-Review",
+    "img": "e-review1.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "ALAS, l'amministrazione di sostegno volontaria",
+    "url": "https://cantierebologna.com/2020/03/26/alas-lamministrazione-di-sostegno-volontaria/",
+    "magazine": "Cantiere Bologna",
+    "img": "cantiere-bologna1.jpg"
+  }
+
+]
