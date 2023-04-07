@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "ESG",
+    "url": "https://www.ilsole24ore.com/sez/sostenibilita/osservatorio",
+    "type": "work",
+    "client": "Sole 24ore",
+    "img": "esg.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Pandemia senza documenti",
+    "url": "https://schenzio.github.io/pandemia_senza_documenti/",
+    "type": "university",
+    "client": null,
+    "img": 
+  },
+  {
+    "id": 3,
+    "title": "Il Birracedario",
+    "url": "https://schenzio.github.io/ilBirracedario/",
+    "type": "university",
+    "client": null,
+    "img": "birracedario.jpg"
+  }
+]
