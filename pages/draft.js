@@ -5,9 +5,14 @@ import {
   Typography,
   Grid
 } from "@mui/material"
+import Articles from '../containers/Articles'
+import WebApps from '../containers/WebApps'
+import articles from "/pages/portfolio/articles.json"
+import webApps from '../pages/portfolio/web-apps.json'
 
 export default function Home({
-  
+  articles=[],
+  webApps=[]
 }) {
   return (
     <Container maxWidth="lg">
@@ -15,7 +20,7 @@ export default function Home({
         Matteo Scannavini
       </Typography>
       <Typography variant="subtitle1">
-        Hi, I&apos;m your friendly neighrborhood tech journalist
+        Hi, I'm your friendly neighrborhood tech journalist
       </Typography>
       <Typography>
       My name is Matteo Scannavini, I am a freelance journalist and web developer. 
@@ -31,12 +36,14 @@ export default function Home({
       </Typography>
       <Typography>
       I have started writing articles when I was 16 years old and since December 2020 I am enrolled in the Order of publicist journalists of Emilia-Romagna. 
-      Here&apos;s a selection of my pieces.
+      Here's a selection of my pieces.
       </Typography>
+      <Articles articles={articles} />
       <Typography variant="h2">
-        Some stuff I with Javascript
+        Some stuff I wrote with Javascript
       </Typography>
         A collection of the web projects I have worked on with Dataninja and during my bachelor in Digital Humanities
+        <WebApps webApps={webApps} />
       <Typography variant="h2">
         Get in touch
       </Typography>
@@ -49,5 +56,13 @@ export default function Home({
     </Container>
   )
 }
-         
+
+export async function getStaticProps(){
+ return {
+   props: {
+     articles: articles,
+     webApps: webApps
+   }
+ }
+}     
           
