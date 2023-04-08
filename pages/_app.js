@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Container disableGutters maxWidth={false}>
+        <Container disableGutters maxWidth={false} sx={{bgcolor: "rgb(23 27 27 / 70%)", }}>
           <Component {...pageProps}/>
         </Container>
       </ThemeProvider>

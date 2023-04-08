@@ -18,13 +18,25 @@ const theme = responsiveFontSizes(createTheme({
   typography: {
     fontFamily: defaulFontFamily,
     h1: {
-      fontSize: "4.5rem"
+      fontSize: "4.5rem",
+      color: defaultSecondaryColor,
+      fontWeight: 700
     },
     h2: {
-      fontSize: "3rem"
+      fontSize: "3rem",
+      color: defaultSecondaryColor,
+      fontWeight: 500
     },
     subtitle1: {
-      fontSize: "1.8rem"
+      fontSize: "2.5rem",
+      color: defaultSecondaryColor,
+      fontWeight: 500,
+      paddingBottom: defaultTheme.spacing(4)
+    },
+    body1: {
+      color: defaultSecondaryColor,
+      fontSize: "1.2rem",
+      lineHeight: "1.6"
     }
   },
   components: {
