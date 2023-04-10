@@ -34,7 +34,7 @@ export default function WebApps({
               <a href={wa.url}>
               <CardMedia
                 component="img"
-                src={"/../public/images/"+wa.img}
+                src={"/images/"+wa.img}
                 alt={wa.alt} 
               >
               </CardMedia>

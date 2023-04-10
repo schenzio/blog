@@ -23,7 +23,7 @@ export default function Articles({
       {articles.map(a => (
       <Carousel.Item key={a.id}>
         <Image
-          src={"/../public/images/"+a.img}
+          src={"/images/"+a.img}
           alt={"pic of "+a.title}
           width={"100%"}
           height={"100%"}

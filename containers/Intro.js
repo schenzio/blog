@@ -12,9 +12,11 @@ export default function Intro(){
   return (
     <Box sx={{textAlign: "center"}}>
         <Avatar sx={{ width: 150, height: 150, margin: "auto"}}>
-          <Image  alt="Matteo Scannavini"
-            src="/../public/images/me.jpg"
-            layout="fill"/>
+          <Image  
+            alt="Matteo Scannavini"
+            src="/images/me.jpg"
+            layout="fill"
+          />
         </Avatar>
       <Typography variant="h1">
         Matteo Scannavini
