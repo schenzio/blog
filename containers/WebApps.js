@@ -30,22 +30,23 @@ export default function WebApps({
       <Carousel cols={2} rows={1} loop>
         {webApps.map(wa => (
           <Carousel.Item key={wa.id}>
-            <Card sx={{ maxWidth: 345,  }}>
+            <Card sx={{ maxWidth: 345, maxHeight: 333}}>
               <a href={wa.url}>
-              <CardMedia
-                component="img"
-                src={"/images/"+wa.img}
-                alt={wa.alt} 
-              >
-              </CardMedia>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  {wa.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {wa.description}
-                </Typography>
-              </CardContent>
+                <CardMedia
+                  component="img"
+                  src={"/images/"+wa.img}
+                  alt={wa.alt}
+                  height={200}
+                >
+                </CardMedia>
+                <CardContent>
+                  <Typography gutterBottom variant="h3">
+                    {wa.title}
+                  </Typography>
+                  <Typography variant="body2">
+                    {wa.description}
+                  </Typography>
+                </CardContent>
               </a>
             </Card>
           </Carousel.Item>

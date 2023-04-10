@@ -27,6 +27,14 @@ const theme = responsiveFontSizes(createTheme({
       color: defaultSecondaryColor,
       fontWeight: 500
     },
+    h3: {
+      fontSize: "1.3rem",
+      fontWeight: 700,
+    },
+    h4: {
+      fontSize: "1rem",
+      fontWeight: 400,
+    },
     subtitle1: {
       fontSize: "1.6rem",
       color: defaultSecondaryColor,
@@ -34,11 +42,19 @@ const theme = responsiveFontSizes(createTheme({
       paddingBottom: defaultTheme.spacing(3),
       fontStyle: "italic"
     },
+    subtitle2: {
+      fontStyle: "italic",
+      fontSize: "0.875rem"
+    },
     body1: {
       color: defaultSecondaryColor,
       fontSize: "1.2rem",
       lineHeight: "1.6",
       paddingBottom: defaultTheme.spacing(1),
+    },
+    body2: {
+      opacity: "0.8",
+      fontWeight: 200
     }
   },
   components: {
@@ -51,6 +67,21 @@ const theme = responsiveFontSizes(createTheme({
             fontSize: "50px",
           },
           ":hover": {textDecoration: "underline" }
+        }
+      }
+    },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          borderRadius: defaultTheme.spacing(3),
+          backgroundColor: "black"
+        }
+      }
+    },
+    MuiCardContent: {
+      styleOverrides: {
+        root: {
+          color: defaultSecondaryColor
         }
       }
     }

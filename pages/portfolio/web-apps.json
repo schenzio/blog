@@ -15,7 +15,7 @@
     "type": "university",
     "client": null,
     "img": "pandemia-senza-documenti.jpg",
-    "description": "A data-driven investigation into the healthcare access of the invisible during the pandemic"
+    "description": "A data-driven investigation into the healthcare access of the 'invisibles' during the pandemic"
   },
   {
     "id": 3,
@@ -24,6 +24,6 @@
     "type": "university",
     "client": null,
     "img": "birracedario.jpg",
-    "description": "The ABC of beer"
+    "description": "The ABC of brewing: an interactive catalogue of beer styles and food pairings"
   }
 ]

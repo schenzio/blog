@@ -1,10 +1,11 @@
 import {
   Box,
-  Typography
+  Typography,
+  Card,
+  CardMedia, 
+  CardContent
 } from "@mui/material"
 
-import Image from "next/image"
-//import {InfoIcon as Info} from "@mui/icons-material"
 import Carousel from "better-react-carousel"
 
 export default function Articles({
@@ -16,20 +17,33 @@ export default function Articles({
         Some stuff I wrote
       </Typography>
       <Typography variant="subtile2">
-      I have started writing articles when I was 16 and since December 2020 I am enrolled in the Order of publicist journalists of Emilia-Romagna. 
-      Here's a selection of my pieces.
+        I have started writing articles when I was 16 and since December 2020 I am enrolled in the Order of publicist journalists of Emilia-Romagna. 
+        Here's a selection of my pieces.
       </Typography>
-      <Carousel cols={4} rows={1} gap={1} loop>
-      {articles.map(a => (
-      <Carousel.Item key={a.id}>
-        <Image
-          src={"/images/"+a.img}
-          alt={"pic of "+a.title}
-          width={"100%"}
-          height={"100%"}
-        />
-        </Carousel.Item>
-      ))}  
+      <Carousel cols={3} rows={1} loop>
+        {articles.map(a => (
+          <Carousel.Item key={a.id}>
+            <Card sx={{ maxWidth: 250, height: {xs: "fit-content", sm: 320}}}>
+              <a href={a.url}>
+                <CardMedia
+                  component="img"
+                  src={"/images/"+a.img}
+                  alt={a.alt} 
+                  height={180}
+                >
+                </CardMedia>
+                <CardContent>
+                  <Typography variant="h4" component="h3">
+                    {a.title}
+                  </Typography>
+                  <Typography variant="body2">
+                    {a.magazine}
+                  </Typography>
+                </CardContent>
+              </a>
+            </Card>
+          </Carousel.Item>
+        ))}
     </Carousel>
   </Box>
   )
