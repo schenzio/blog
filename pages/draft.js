@@ -1,10 +1,5 @@
-import Head from 'next/head'
-import Link from 'next/link'
 import {
-  Container,
-  Typography,
-  Grid,
-  Stack
+  Box
 } from "@mui/material"
 import Intro from '../containers/Intro'
 import Articles from '../containers/Articles'
@@ -20,7 +15,7 @@ export default function Home({
   webApps=[]
 }) {
   return (
-    <Stack component="main" gap={5}>
+    <Box component="main">
       <SectionWrapper>
         <Intro />
       </SectionWrapper>
@@ -33,7 +28,7 @@ export default function Home({
       <SectionWrapper>
         <Contacts />
       </SectionWrapper> 
-    </Stack>
+    </Box>
   )
 }
 

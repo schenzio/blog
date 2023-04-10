@@ -18,9 +18,9 @@ const theme = responsiveFontSizes(createTheme({
   typography: {
     fontFamily: defaulFontFamily,
     h1: {
-      fontSize: "4.5rem",
+      fontSize: "2.7rem",
       color: defaultSecondaryColor,
-      fontWeight: 700
+      fontWeight: 700,
     },
     h2: {
       fontSize: "3rem",
@@ -28,18 +28,32 @@ const theme = responsiveFontSizes(createTheme({
       fontWeight: 500
     },
     subtitle1: {
-      fontSize: "2.5rem",
+      fontSize: "1.6rem",
       color: defaultSecondaryColor,
       fontWeight: 500,
-      paddingBottom: defaultTheme.spacing(4)
+      paddingBottom: defaultTheme.spacing(3),
+      fontStyle: "italic"
     },
     body1: {
       color: defaultSecondaryColor,
       fontSize: "1.2rem",
-      lineHeight: "1.6"
+      lineHeight: "1.6",
+      paddingBottom: defaultTheme.spacing(1),
     }
   },
   components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          fontSize: "1rem",
+          color: "#1bdaff",
+          ".MuiSvgIcon-root": {
+            fontSize: "50px",
+          },
+          ":hover": {textDecoration: "underline" }
+        }
+      }
+    }
   }
 }))
 

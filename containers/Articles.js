@@ -11,7 +11,7 @@ export default function Articles({
   articles=[]
 }) {
   return (
-    <Box component="section">
+    <Box component="section" id="articles">
       <Typography variant="h2">
         Some stuff I wrote
       </Typography>

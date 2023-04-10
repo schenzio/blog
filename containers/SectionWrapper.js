@@ -10,7 +10,9 @@ export default function SectionWrapper({children}) {
       maxWidth={false} 
       sx={{
         bgcolor: "rgb(23 27 27 / 70%)",
-        marginTop: "15vh"
+        marginTop: "17vh",
+        paddingTop: theme => theme.spacing(5),
+        paddingBottom: theme => theme.spacing(5)
       }}
     >
       <Container maxWidth="md">
