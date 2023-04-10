@@ -18,14 +18,15 @@ const theme = responsiveFontSizes(createTheme({
   typography: {
     fontFamily: defaulFontFamily,
     h1: {
-      fontSize: "2.7rem",
+      fontSize: "2.6rem",
       color: defaultSecondaryColor,
-      fontWeight: 700,
+      fontWeight: 800,
     },
     h2: {
-      fontSize: "2.2rem",
+      fontSize: "2rem",
       color: defaultSecondaryColor,
-      fontWeight: 500
+      fontWeight: 700,
+      paddingBottom: defaultTheme.spacing(2),
     },
     h3: {
       fontSize: "1.3rem",
@@ -43,12 +44,13 @@ const theme = responsiveFontSizes(createTheme({
       fontStyle: "italic"
     },
     subtitle2: {
-      fontStyle: "italic",
-      fontSize: "0.875rem"
+      fontSize: "1rem",
+      paddingBottom: defaultTheme.spacing(2),
+      fontWeight: 400
     },
     body1: {
       color: defaultSecondaryColor,
-      fontSize: "1.2rem",
+      fontSize: "1.1rem",
       lineHeight: "1.6",
       paddingBottom: defaultTheme.spacing(1),
     },
@@ -63,9 +65,8 @@ const theme = responsiveFontSizes(createTheme({
         root: {
           fontSize: "1rem",
           color: "#1bdaff",
-          ".MuiSvgIcon-root": {
-            fontSize: "50px",
-          },
+          ".MuiSvgIcon-root": { fontSize: "4rem" },
+          borderRadius: defaultTheme.spacing(3),
           ":hover": {textDecoration: "underline" }
         }
       }

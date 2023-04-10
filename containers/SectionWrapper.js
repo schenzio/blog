@@ -9,7 +9,7 @@ export default function SectionWrapper({children}) {
       disableGutters 
       maxWidth={false} 
       sx={{
-        bgcolor: "rgb(23 27 27 / 75s%)",
+        bgcolor: "rgb(23 27 27 / 75%)",
         marginTop: "17vh",
         paddingTop: theme => theme.spacing(5),
         paddingBottom: theme => theme.spacing(5)
