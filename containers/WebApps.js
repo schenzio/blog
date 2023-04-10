@@ -8,26 +8,30 @@ import {
   Card, 
   CardActionArea,
   CardContent, 
-  CardMedia
+  CardMedia,
+  Stack
 } from "@mui/material"
-  
+import LaptopRoundedIcon from '@mui/icons-material/LaptopRounded';
 import Image from "next/image"
 //import {InfoIcon as Info} from "@mui/icons-material"
 import Carousel from "better-react-carousel"
-import { AddAPhoto } from "@mui/icons-material"
+import { LaptopRounded } from "@mui/icons-material"
 
 export default function WebApps({
   webApps=[]
 }) {
   return (
     <Box>
-      <Typography variant="h2">
-        Some stuff I wrote with Javascript
-      </Typography>
+     <Stack direction="row">
+        <LaptopRounded fontSize="large" />
+        <Typography variant="h2">
+          Some stuff I wrote with Javascript
+        </Typography>
+      </Stack> 
       <Typography variant="subtitle2">
         A collection of the web projects I have worked on with Dataninja and during my bachelor in Digital Humanities
       </Typography>
-      <Carousel cols={2} rows={1} loop>
+      <Carousel cols={2} autoplay={3000} loop>
         {webApps.map(wa => (
           <Carousel.Item key={wa.id}>
             <Card sx={{ maxWidth: 345, maxHeight: 333}}>

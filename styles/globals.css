@@ -50,6 +50,10 @@ a:hover {
   color: #1bdaff;
   font-weight: 500;
 }
+#gecko{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
 img {
   max-width: 100%;
   display: block;

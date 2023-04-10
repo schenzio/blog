@@ -25,8 +25,7 @@ const theme = responsiveFontSizes(createTheme({
     h2: {
       fontSize: "2rem",
       color: defaultSecondaryColor,
-      fontWeight: 700,
-      paddingBottom: defaultTheme.spacing(2),
+      fontWeight: 700
     },
     h3: {
       fontSize: "1.3rem",
@@ -45,6 +44,7 @@ const theme = responsiveFontSizes(createTheme({
     },
     subtitle2: {
       fontSize: "1rem",
+      paddingTop: defaultTheme.spacing(2),
       paddingBottom: defaultTheme.spacing(2),
       fontWeight: 400
     },
@@ -83,6 +83,14 @@ const theme = responsiveFontSizes(createTheme({
       styleOverrides: {
         root: {
           color: defaultSecondaryColor
+        }
+      }
+    },
+    MuiStack: {
+      styleOverrides: {
+        root: {   
+          gap: defaultTheme.spacing(1),
+          alignItems: "center"
         }
       }
     }
