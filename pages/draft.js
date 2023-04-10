@@ -10,6 +10,7 @@ import Intro from '../containers/Intro'
 import Articles from '../containers/Articles'
 import WebApps from '../containers/WebApps'
 import Contacts from '../containers/Contacts'
+import SectionWrapper from '../containers/SectionWrapper'
 
 import articles from "/pages/portfolio/articles.json"
 import webApps from '../pages/portfolio/web-apps.json'
@@ -19,14 +20,20 @@ export default function Home({
   webApps=[]
 }) {
   return (
-    <Container maxWidth="xl" component="main">
-      <Stack gap={5}>
+    <Stack component="main" gap={5}>
+      <SectionWrapper>
         <Intro />
+      </SectionWrapper>
+      <SectionWrapper>
         <Articles articles={articles} />
+      </SectionWrapper>
+      <SectionWrapper>
         <WebApps webApps={webApps} />
+      </SectionWrapper>
+      <SectionWrapper>
         <Contacts />
-      </Stack>
-    </Container>
+      </SectionWrapper> 
+    </Stack>
   )
 }
 

@@ -5,7 +5,7 @@ import {
 
 export default function Contacts(){
   return (
-    <Box component="section">
+    <Box>
       <Typography variant="h2">
         Get in touch
       </Typography>

@@ -1,11 +1,12 @@
 [
   {
     "id": 1,
-    "title": "ESG",
+    "title": "Osservatorio ESG",
     "url": "https://www.ilsole24ore.com/sez/sostenibilita/osservatorio",
     "type": "work",
     "client": "Sole 24ore",
-    "img": "esg.jpg"
+    "img": "esg.jpg",
+    "description": "The survey on Environmental Environmental, Social, and Governance by Il Sole 24 Ore"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "url": "https://schenzio.github.io/pandemia_senza_documenti/",
     "type": "university",
     "client": null,
-    "img": "pandemia-senza-documenti.jpg"
+    "img": "pandemia-senza-documenti.jpg",
+    "description": "A data-driven investigation into the healthcare access of the invisible during the pandemic"
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "url": "https://schenzio.github.io/ilBirracedario/",
     "type": "university",
     "client": null,
-    "img": "birracedario.jpg"
+    "img": "birracedario.jpg",
+    "description": "The ABC of beer"
   }
 ]
