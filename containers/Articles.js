@@ -15,8 +15,8 @@ export default function Articles({
       <Typography variant="h2">
         Some stuff I wrote
       </Typography>
-      <Typography>
-      I have started writing articles when I was 16 years old and since December 2020 I am enrolled in the Order of publicist journalists of Emilia-Romagna. 
+      <Typography variant="subtile2">
+      I have started writing articles when I was 16 and since December 2020 I am enrolled in the Order of publicist journalists of Emilia-Romagna. 
       Here's a selection of my pieces.
       </Typography>
       <Carousel cols={4} rows={1} gap={1} loop>

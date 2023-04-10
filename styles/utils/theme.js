@@ -23,7 +23,7 @@ const theme = responsiveFontSizes(createTheme({
       fontWeight: 700,
     },
     h2: {
-      fontSize: "3rem",
+      fontSize: "2.2rem",
       color: defaultSecondaryColor,
       fontWeight: 500
     },
