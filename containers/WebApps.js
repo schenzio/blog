@@ -14,6 +14,7 @@ import {
 import Image from "next/image"
 //import {InfoIcon as Info} from "@mui/icons-material"
 import Carousel from "better-react-carousel"
+import { AddAPhoto } from "@mui/icons-material"
 
 export default function WebApps({
   webApps=[]
@@ -23,22 +24,19 @@ export default function WebApps({
       <Typography variant="h2">
         Some stuff I wrote with Javascript
       </Typography>
-      <Typography>
+      <Typography variant="subtitle2">
         A collection of the web projects I have worked on with Dataninja and during my bachelor in Digital Humanities
       </Typography>
-      <Carousel cols={2} rows={1} gap={1} loop>
+      <Carousel cols={2} rows={1} loop>
         {webApps.map(wa => (
           <Carousel.Item key={wa.id}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345,  }}>
+              <a href={wa.url}>
               <CardMedia
-                component="picture"
+                component="img"
+                src={"/../public/images/"+wa.img}
+                alt={wa.alt} 
               >
-                <Image
-                  src={"/../public/images/"+wa.img}
-                  alt={"pic of "+wa.title}
-                  width={"100%"}
-                  height={"100%"}
-                />
               </CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -48,6 +46,7 @@ export default function WebApps({
                   {wa.description}
                 </Typography>
               </CardContent>
+              </a>
             </Card>
           </Carousel.Item>
         ))}  
