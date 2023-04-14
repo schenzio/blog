@@ -22,19 +22,23 @@ const theme = responsiveFontSizes(createTheme({
     h1: {
       fontSize: "2.7rem",
       fontWeight: 800,
+      color: defaultSecondaryColor,
     },
     h2: {
       fontSize: "2rem",
-      fontWeight: 700
+      fontWeight: 700,
+      color: defaultSecondaryColor,
     },
     h3: {
       fontSize: "1.3rem",
       fontWeight: 700,
+      color: defaultSecondaryColor,
     },
     h4: {
       fontSize: "1rem",
       fontWeight: 400,
       paddingBottom: defaultTheme.spacing(1),
+      color: defaultSecondaryColor,
     },
     subtitle1: {
       fontSize: "1.7rem",
@@ -44,19 +48,22 @@ const theme = responsiveFontSizes(createTheme({
       fontStyle: "italic"
     },
     subtitle2: {
-      fontSize: "1rem",
+      fontSize: "1.15rem",
       paddingTop: defaultTheme.spacing(2),
       paddingBottom: defaultTheme.spacing(2),
-      fontWeight: 400
+      fontWeight: 400,
+      color: defaultSecondaryColor,
     },
     body1: {
       fontSize: "1.15rem",
       lineHeight: "1.6",
       paddingBottom: defaultTheme.spacing(1),
+      color: defaultSecondaryColor,
     },
     body2: {
       opacity: "0.8",
-      fontWeight: 200
+      fontWeight: 200,
+      color: defaultSecondaryColor,
     }
   },
   components: {
