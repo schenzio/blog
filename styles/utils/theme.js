@@ -4,6 +4,8 @@ const defaulFontFamily = "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, O
 const defaultPrimaryColor = "#2b71ab"
 const defaultSecondaryColor = "#ffffff"
 
+export const defaultBackGroundColor = "rgb(23 27 27 / 75%)"
+
 const defaultTheme = createTheme()
 
 const theme = responsiveFontSizes(createTheme({
@@ -18,13 +20,11 @@ const theme = responsiveFontSizes(createTheme({
   typography: {
     fontFamily: defaulFontFamily,
     h1: {
-      fontSize: "2.6rem",
-      color: defaultSecondaryColor,
+      fontSize: "2.7rem",
       fontWeight: 800,
     },
     h2: {
       fontSize: "2rem",
-      color: defaultSecondaryColor,
       fontWeight: 700
     },
     h3: {
@@ -37,7 +37,7 @@ const theme = responsiveFontSizes(createTheme({
       paddingBottom: defaultTheme.spacing(1),
     },
     subtitle1: {
-      fontSize: "1.6rem",
+      fontSize: "1.7rem",
       color: defaultSecondaryColor,
       fontWeight: 500,
       paddingBottom: defaultTheme.spacing(3),
@@ -50,8 +50,7 @@ const theme = responsiveFontSizes(createTheme({
       fontWeight: 400
     },
     body1: {
-      color: defaultSecondaryColor,
-      fontSize: "1.1rem",
+      fontSize: "1.15rem",
       lineHeight: "1.6",
       paddingBottom: defaultTheme.spacing(1),
     },

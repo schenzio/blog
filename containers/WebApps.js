@@ -1,19 +1,12 @@
 import {
-  ImageList, 
-  ImageListItem,
-  ImageListItemBar,
-  IconButton,
   Box, 
   Typography,
   Card, 
-  CardActionArea,
   CardContent, 
   CardMedia,
   Stack
 } from "@mui/material"
-import LaptopRoundedIcon from '@mui/icons-material/LaptopRounded';
-import Image from "next/image"
-//import {InfoIcon as Info} from "@mui/icons-material"
+
 import Carousel from "better-react-carousel"
 import { LaptopRounded } from "@mui/icons-material"
 

@@ -2,8 +2,7 @@ import {
   Box,
   Typography,
   Avatar,
-  Grid,
-  Button, 
+  Button 
 } from "@mui/material"
 import Image from "next/image"
 import Link from "next/link"

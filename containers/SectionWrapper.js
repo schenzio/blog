@@ -1,6 +1,7 @@
 import {
   Container,
 } from '@mui/material'
+import { defaultBackGroundColor } from '../styles/utils/theme'
 
 export default function SectionWrapper({children}) {
   return (
@@ -9,7 +10,7 @@ export default function SectionWrapper({children}) {
       disableGutters 
       maxWidth={false} 
       sx={{
-        bgcolor: "rgb(23 27 27 / 75%)",
+        bgcolor: defaultBackGroundColor,
         marginTop: "17vh",
         paddingTop: theme => theme.spacing(5),
         paddingBottom: theme => theme.spacing(5)

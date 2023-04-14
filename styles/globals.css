@@ -2,11 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
-  font-size: 18px;
-  /*background-color: #063162;*/
   background-image: url("../public/images/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -21,7 +17,6 @@ body {
 }
 
 a {
-  /*color: #0070f3;*/
   color: #00d6ff;
   text-decoration: none;
 }
@@ -56,15 +51,7 @@ a:hover {
   }
 }
 
-.special{
-  color: #1bdaff;
-  font-weight: 500;
-}
 #gecko{
   -webkit-filter: invert(100%);
   filter: invert(100%);
-}
-img {
-  max-width: 100%;
-  display: block;
 }

@@ -6,18 +6,9 @@ import {
 } from "@mui/material"
 
 import {
-  NavigateNext as NavigateNextIcon,
-  Edit as EditIcon,
-  Check as CheckIcon,
-  Clear as ClearIcon,
   Facebook as FacebookIcon,
   Twitter as TwitterIcon,
-  LinkedIn as LinkedInIcon,
-  WhatsApp as WhatsAppIcon,
-  MailOutline as MailIcon,
-  QueryStats as QueryStatsIcon,
-  Visibility as VisibilityIcon,
-  Login as LoginIcon
+  LinkedIn as LinkedInIcon
 } from '@mui/icons-material'
 
 import Image from "next/image"
