@@ -28,7 +28,7 @@ export default function Articles({
       <Carousel cols={3} autoplay={3000} loop>
         {articles.map(a => (
           <Carousel.Item key={a.id}>
-            <Card sx={{ maxWidth: 250 }}>
+            <Card sx={{ maxWidth: 250 }} className="card">
               <a href={a.url} target="_blank">
                 <CardMedia
                   component="img"

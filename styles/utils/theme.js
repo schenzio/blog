@@ -66,9 +66,9 @@ const theme = responsiveFontSizes(createTheme({
         root: {
           fontSize: "1rem",
           color: "#1bdaff",
-          ".MuiSvgIcon-root": { fontSize: "4rem" },
+          ".MuiSvgIcon-root": { fontSize: "66px" },
           borderRadius: defaultTheme.spacing(3),
-          ":hover": {textDecoration: "underline" }
+          ":hover": { textDecoration: "underline" }
         }
       }
     },
@@ -83,7 +83,8 @@ const theme = responsiveFontSizes(createTheme({
     MuiCard: {
       styleOverrides: {
         root: {
-          height: "100%"
+          height: "95%",
+          marginTop: defaultTheme.spacing(1)
         }
       }
     },

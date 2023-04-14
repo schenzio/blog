@@ -43,6 +43,19 @@ a:hover {
   100%{
   }
 }
+
+.card:hover {
+  animation: elevate 0.25s 1
+}
+
+@keyframes elevate {
+  0%{
+  }
+  100%{
+    transform: translateY(-8px)
+  }
+}
+
 .special{
   color: #1bdaff;
   font-weight: 500;
