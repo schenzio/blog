@@ -34,7 +34,7 @@ export default function WebApps({
       <Carousel cols={2} autoplay={3000} loop>
         {webApps.map(wa => (
           <Carousel.Item key={wa.id}>
-            <Card sx={{ maxWidth: 345, maxHeight: 333}}>
+            <Card sx={{ maxWidth: 345 }}>
               <a href={wa.url} target="_blank">
                 <CardMedia
                   component="img"

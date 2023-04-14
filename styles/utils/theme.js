@@ -34,6 +34,7 @@ const theme = responsiveFontSizes(createTheme({
     h4: {
       fontSize: "1rem",
       fontWeight: 400,
+      paddingBottom: defaultTheme.spacing(1),
     },
     subtitle1: {
       fontSize: "1.6rem",
@@ -76,6 +77,13 @@ const theme = responsiveFontSizes(createTheme({
         root: {
           borderRadius: defaultTheme.spacing(3),
           backgroundColor: "black"
+        }
+      }
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          height: "100%"
         }
       }
     },

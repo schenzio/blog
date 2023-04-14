@@ -22,13 +22,13 @@ export default function Articles({
         </Typography>
       </Stack>
       <Typography variant="subtitle2">
-        I have started writing articles when I was 16 and since December 2020 I am enrolled in the <a href="https://odg.bo.it/" target="_blank">Order of publicist journalists of 
+        I have started writing articles when I was 16 and since December 2020 I am enrolled in the <a href="https://odg.bo.it/">Order of journalists of 
         Emilia-Romagna</a>. Here's a selection of my pieces.
       </Typography>
       <Carousel cols={3} autoplay={3000} loop>
         {articles.map(a => (
           <Carousel.Item key={a.id}>
-            <Card sx={{ maxWidth: 250, height: {xs: "fit-content", sm: 320}}}>
+            <Card sx={{ maxWidth: 250 }}>
               <a href={a.url} target="_blank">
                 <CardMedia
                   component="img"
