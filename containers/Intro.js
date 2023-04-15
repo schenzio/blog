@@ -32,7 +32,7 @@ export default function Intro(){
         I am keen on <b>slow journalism</b>, especially when mixed with <b>data</b>, and when I do articles or web apps, I put them here.
       </Typography>
       <Link href="#articles">
-        <Button endIcon={<ScrollDownIcon id="scrollDown" />} sx={{flexDirection: "column", }}>
+        <Button endIcon={<ScrollDownIcon id="scrollDown" />} sx={{".css-1gnd1fd-MuiButton-endIcon>*:nth-of-type(1)": {fontSize: "66px"}, flexDirection: "column", }}>
           Have a look
         </Button>
       </Link>

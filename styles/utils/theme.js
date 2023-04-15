@@ -72,7 +72,6 @@ const theme = responsiveFontSizes(createTheme({
         root: {
           fontSize: "1rem",
           color: "#1bdaff",
-          ".MuiSvgIcon-root": { fontSize: "66px" },
           borderRadius: defaultTheme.spacing(3),
           ":hover": { textDecoration: "underline" }
         }
